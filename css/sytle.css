@@ -1,0 +1,56 @@
+.box{
+    width: 400px;
+    height: 400px;
+
+    /*padding: 10px;*/  
+    padding-top: 10px;
+    padding-left: 10px;
+
+    border-width: 1px;
+    border: solid black;
+}
+.inner-box{
+    width: 200px;
+    height: 200px;
+    border-width: 1px;
+    border: solid black;
+    /*margin: 10px;*/
+}
+
+.kutu{
+    width: 5vw; /*Genişliğin %5 ini aldı.*/
+    height: 10vh; /*Yüksekliğin %10'ununu aldı.*/
+    background-color: red;
+}
+.mainp{
+    font-size: 2rem;
+    line-height: 4rem; /*satır aralığı*/
+    word-spacing: 2rem; /*kelimelerin arasındaki mesafe*/
+    letter-spacing: 0.3rem; /*harfler arası mesafe*/
+}
+.mainp::first-letter { /*ilk harfin stilini değiştirir*/
+    font-size: 8rem;
+    color: black;
+}
+.mainp::first-line {  /*ilk satırın rengini değiştirir*/
+    color: red;
+}
+html{
+    font-size: 10px; /*tümünü burada değiştirebiliriz.Hepsi küçülür veya büyür*/
+}
+.pone{
+    font-size: 2em; /*1em: 16px , 2em: 32px*/
+}/*em bir üst elemente bakar ve ona gör kendini ölçeklendirir*/
+.ptwo{
+    font-size: 1rem; /*1rem:16px*/
+}/*Kök dosyaya elemente bakar mesela html dosyasında fontsize belirtilmiş oraya gider
+ve ona göre kendini ölçeklendirir. */
+h3{
+    font-size: 2rem;
+}
+h2{
+    font-size: 3rem;
+}
+h1{
+    font-size: 4rem;
+}
